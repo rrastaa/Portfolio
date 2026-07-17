@@ -14,20 +14,19 @@ function App() {
 
   return (
     <>
-      <div className="relative bg-[#131313] overflow-hidden">
-        <div className="absolute inset-0  pointer-events-none">
-          <img src="/gradientleft.webp" className="absolute top-[22%] blur-2xl" alt="" />
+      <div className="relative bg-[#131313]">
+        
+          <img src="/gradientleft.webp" className="absolute top-[20%] blur-2xl" alt="" />
 
           <img
             src="/gradvert.webp"
-            className="absolute top-[50%] right-[10%] scale-x-200 translate-x-100 blur-3xl"
+            className="absolute bottom-0 right-0 scale-x-200 translate-x-200 blur-3xl"
             alt=""
           />
-        </div>
+        
 
         <div className="relative z-10">
           <Navbar></Navbar>
-
           <Home></Home>
           <TechStack></TechStack>
           <ProjectsView></ProjectsView>

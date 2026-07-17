@@ -6,10 +6,10 @@ html{
 
 *{
   font-family: 'Helvetica Neue';
-  /* background-color: #131313; */
+
 }
 
 body{
   overflow-x: hidden;
-  
+  background-color: #131313;
 }
