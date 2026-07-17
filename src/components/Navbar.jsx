@@ -53,11 +53,11 @@ function Navbar() {
   return (
     <>
       <div
-        className={`fixed flex w-full z-50 justify-end transition duration-300 ${
+        className={`fixed flex w-full z-50 justify-center md:justify-end transition duration-300 ${
           showNav ? "translate-y-0 opacity-100" : "-translate-y-6 opacity-0"
         }`}
       >
-        <div className=" w-[50vw] text-white justify-around mt-6 pt-2 rounded-full mb-4 pb-2 mr-14 flex z-50 px-16 bg-linear-to-br from-[#BFBFBF]/8 to-[#595959]/5 border border-white/10 backdrop-blur-lg">
+        <div className=" w-[60vw] text-white justify-around text-xs md:text-base mt-6 pt-2 rounded-full mb-4 pb-2 mr-14 flex z-50 px-8 md:px-16 bg-linear-to-br from-[#BFBFBF]/8 to-[#595959]/5 border border-white/10 backdrop-blur-lg">
           {navItems.map((items) => (
             <a className="hover:shadow-[0_0_25px_rgba(255,255,255,0.1)] transition duration-200 hover:scale-102 overflow-hidden" href={items.href}>
               {items.name}
