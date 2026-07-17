@@ -66,7 +66,7 @@ function ContactFill({ title, value, icon: Icon }) {
   return (
     <div
       onClick={handleCopy}
-      className="hover:bg-linear-to-t hover:from-[#595959]/20 hover:to-[#BFBFBF]/20 hover:scale-102 cursor-pointer transition duration-200 rounded-lg border border-white/10 p-4 md:p-12 bg-linear-to-t from-[#BFBFBF]/8 to-[#595959]/5 flex flex-col justify-center items-center gap-4"
+      className="hover:bg-linear-to-t hover:from-[#595959]/20 hover:to-[#BFBFBF]/20 hover:scale-102 cursor-pointer transition duration-200 rounded-lg border border-white/10 p-4 py-6 md:p-12 bg-linear-to-t from-[#BFBFBF]/8 to-[#595959]/5 flex flex-col justify-center items-center gap-2 md:gap-4"
     >
       <div className="flex flex-col justify-center items-center gap-2">
         <Icon className="w-4 md:w-8 md:h-8"></Icon>

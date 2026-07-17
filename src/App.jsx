@@ -16,7 +16,7 @@ function App() {
     <>
       <div className="relative bg-[#131313] overflow-hidden">
         
-          <img src="/gradientleft.webp" className="absolute top-[20%] blur-2xl" alt="" />
+          <img src="/gradientleft.webp" className="absolute top-[30%] md:top-[20%] blur-2xl" alt="" />
 
           <img
             src="/gradvert.webp"
