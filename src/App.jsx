@@ -14,13 +14,13 @@ function App() {
 
   return (
     <>
-      <div className="relative bg-[#131313]">
+      <div className="relative bg-[#131313] overflow-hidden">
         
           <img src="/gradientleft.webp" className="absolute top-[20%] blur-2xl" alt="" />
 
           <img
             src="/gradvert.webp"
-            className="absolute bottom-0 right-0 scale-x-200 translate-x-200 blur-3xl"
+            className="absolute bottom-0 right-0 scale-x-200 md:translate-x-200 blur-3xl"
             alt=""
           />
         
