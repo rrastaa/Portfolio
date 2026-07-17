@@ -5,7 +5,7 @@ function Home() {
         className="relative m-8 rounded-lg border border-[#F2EFE9]/20 z-10 "
         id="Home"
       >
-        <img src="public/finalhome.webp" className="w-full h-[91vh] " alt="" />
+        <img src="/finalhome.webp" className="w-full h-[91vh] " alt="" />
 
         <img
           src="MainName.svg"
