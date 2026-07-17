@@ -11,16 +11,16 @@ function Home() {
 
           <img
             src="MainName.svg"
-            className="absolute w-[60vw] top-[20%] left-[10%] md:top-1/4 md:left-16 md:w-150 "
+            className="absolute w-[60vw] top-[30%] left-[10%] md:top-1/4 md:left-16 md:w-150 "
             alt=""
           />
 
           <img
             src="cursor.svg"
-            className="absolute w-15 md:w-25 top-[25%] left-[80%]   md:top-[35%] md:left-[50%]"
+            className="absolute w-15 md:w-25 top-[35%] left-[80%]   md:top-[35%] md:left-[50%]"
             alt=""
           />
-          <p className="absolute max-w-70 md:max-w-130 top-[40%] ml-[10%] md:top-4/6 md:right-16 text-white font-normal text-xs md:text-[16px] text-justify">
+          <p className="absolute max-w-70 md:max-w-130 top-[50%] ml-[10%] md:top-4/6 md:right-16 text-white font-normal text-xs md:text-[16px] text-justify">
             I'm a UI/UX Designer and aspiring Front-End Developer with a passion
             for designing clean, modern, and user-friendly digital products. I
             enjoy learning new technologies and turning creative ideas into real
