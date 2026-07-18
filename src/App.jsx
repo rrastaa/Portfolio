@@ -23,6 +23,9 @@ function App() {
             console.log(entry.target);
             entry.target.classList.add("show");
           }
+          else{
+            entry.target.classList.remove("show");
+          }
         });
       },
       {
@@ -36,8 +39,21 @@ function App() {
             console.log(entry.target);
             entry.target.classList.add("show");
           }
+          else{
+            entry.target.classList.remove("show");
+          }
         })
       },{threshold:0.5}
+    )
+    const fastObserver = new IntersectionObserver(
+      (entries)=>{
+        entries.forEach((entry)=>{
+          if (entry.isIntersecting) {
+            console.log(entry.target);
+            entry.target.classList.add("show");
+          }
+        })
+      },{}
     )
 
     const h1 = document.querySelectorAll("h2")
