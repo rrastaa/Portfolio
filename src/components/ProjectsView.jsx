@@ -35,7 +35,7 @@ const project = [
 function ProjectCard({ title, logo, focus, desc, mainImage, moreImage }) {
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-4 md:gap-8 bg-linear-to-br from-[#BFBFBF]/8 to-[#595959]/5 p-2 md:p-8 rounded-lg border border-white/10">
+      <div className="info project transition duration-500 flex flex-col md:flex-row gap-4 md:gap-8 bg-linear-to-br from-[#BFBFBF]/8 to-[#595959]/5 p-2 md:p-8 rounded-lg border border-white/10">
         <img
           src={mainImage}
           className="md:max-w-[50vw] max-h-[70vh] rounded hover:brightness-100  hover:scale-102 transition duration-200"
@@ -72,10 +72,10 @@ function ProjectsView() {
     <>
       <div className="text-white text-start pt-12 h-full mx-8 md:mx-12 flex flex-col gap-10 md:gap-20 z-10" id="ProjectView">
         <div className="flex flex-col gap-2">
-          <h2 className="text-3xl md:text-6xl font-medium">Featured Projects</h2>
-          <p className="text-sm md:text-[16px] font-light">
+          <h2 className="transition duration-600 text-3xl md:text-6xl font-medium">Featured Projects</h2>
+          <h5 className="transition duration-600 text-sm md:text-[16px] font-light">
             A selection of projects that showcase my skills and experience.
-          </p>
+          </h5>
         </div>
         <div className="flex flex-col gap-10 md:gap-20">
           {project.map((project) => (

@@ -13,3 +13,36 @@ body{
   overflow-x: hidden;
   background-color: #131313;
 }
+
+h2,h5{
+  transform: translateY(2rem);
+  opacity: 0;
+}
+
+h2.show,h5.show{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+h5.show{
+  transition-delay:0.5s;
+}
+
+.info{
+  transform: translateY(2rem);
+  opacity: 0;
+}
+
+.info.show{
+  transform: translateY(0);
+  opacity: 1;
+}
+.tech{
+  transition-delay: 1s;
+}
+.project{
+  transition-delay: 0s;
+}
+.contact{
+  transition-delay: 0s;
+}

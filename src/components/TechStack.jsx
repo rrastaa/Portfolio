@@ -69,12 +69,12 @@ function TechStack() {
     <>
       <div className="text-white pt-20 md:pt-34 pb-30 md:pb-46 w-full z-20" id="TechStack">
         <div className="text-center flex flex-col gap-1 md:gap-2 mx-14">
-          <h2 className="text-3xl md:text-6xl font-medium">Tech Stack</h2>
-          <p className="text-sm md:text-[16px] font-light">
+          <h2 className="transition duration-600 text-3xl md:text-6xl font-medium">Tech Stack</h2>
+          <h5 className="transition duration-600 text-sm md:text-[16px] font-light">
             The technologies I use to design and develop digital products.
-          </p>
+          </h5>
         </div>
-        <div className="grid grid-cols-6 gap-6 md:gap-12 mt-10 md:mt-20 mx-12 md:mx-64 bg-linear-to-br from-[#BFBFBF]/8 to-[#595959]/5 p-6 md:p-12 rounded-lg border border-white/10">
+        <div className="info tech transition duration-500 grid grid-cols-6 gap-6 md:gap-12 mt-10 md:mt-20 mx-12 md:mx-64 bg-linear-to-br from-[#BFBFBF]/8 to-[#595959]/5 p-6 md:p-12 rounded-lg border border-white/10">
           {techStack.map((techStack) => (
             <TechLogo
               key={techStack.name}

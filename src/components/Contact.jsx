@@ -31,9 +31,9 @@ function Contact() {
     <>
       <div className="text-white pt-30 flex flex-col gap-16 md:gap-20 mb-20 mx-8 md:mx-48 z-20" id="Contact">
         <div className="text-center ">
-          <h2 className="text-3xl md:text-6xl font-medium">Contact Me</h2>
+          <h2 className="transition duration-600 text-3xl md:text-6xl font-medium">Contact Me</h2>
         </div>
-        <div className="max-w-screen grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 ">
+        <div className=" max-w-screen grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 ">
           {contacts.map((contact) => (
             <ContactFill
               key={contact.title}
@@ -66,13 +66,13 @@ function ContactFill({ title, value, icon: Icon }) {
   return (
     <div
       onClick={handleCopy}
-      className="hover:bg-linear-to-t hover:from-[#595959]/20 hover:to-[#BFBFBF]/20 hover:scale-102 cursor-pointer transition duration-200 rounded-lg border border-white/10 p-4 py-6 md:p-12 bg-linear-to-t from-[#BFBFBF]/8 to-[#595959]/5 flex flex-col justify-center items-center gap-2 md:gap-4"
+      className="info contact hover:bg-linear-to-t hover:from-[#595959]/20 hover:to-[#BFBFBF]/20 hover:scale-102 cursor-pointer transition duration-200 rounded-lg border border-white/10 p-4 py-6 md:p-12 bg-linear-to-t from-[#BFBFBF]/8 to-[#595959]/5 flex flex-col justify-center items-center gap-2 md:gap-4"
     >
-      <div className="flex flex-col justify-center items-center gap-2">
+      <div className=" flex flex-col justify-center items-center gap-2">
         <Icon className="w-4 md:w-8 md:h-8"></Icon>
         <p className="text-xs">{title}</p>
       </div>
-      <h2 className="font-bold md:text-[24px] transition duration-200">{copied?"Successfully Copied!":value}</h2>
+      <h3 className="font-bold md:text-[24px] transition duration-200">{copied?"Successfully Copied!":value}</h3>
     </div>
   );
 }
