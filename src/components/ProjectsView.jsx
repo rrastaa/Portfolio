@@ -22,7 +22,7 @@ const project = [
     title: "OrderIn",
     logo: "/orderin/orderinlogo.svg",
     focus: "Full-Stack Developer & UI/UX Designer",
-    desc: "Designed the complete UI/UX for a modern skincare brand website with a focus on usability and visual consistency. Created wireframes, high-fidelity prototypes, and a responsive interface that reflects the brand's identity.",
+    desc: "Designed and developed a production management system for a garment factory, handling both the UI/UX design and full-stack development. Built responsive interfaces, implemented authentication, order management, task assignments, production tracking, and real-time progress updates to streamline production workflows.",
     mainImage: "/orderin/orderindashboard.webp",
     moreImage: [
       "/orderin/assignproduct.webp",
