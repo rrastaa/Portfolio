@@ -52,12 +52,14 @@ function App() {
 
     const h1 = document.querySelectorAll("h2")
     const h5 = document.querySelectorAll("h5")
-    const info = document.querySelectorAll(".info")
+    const techInfo = document.querySelectorAll(".info.tech")
+    const info = document.querySelectorAll(".info:not(.tech")
     
 
     h1.forEach((el) => observer.observe(el));
     h5.forEach((el)=> observer.observe(el))
     info.forEach((el)=>infoObserver.observe(el))
+    techInfo.forEach((el)=>fastObserver.observe(el))
 
   }, []);
 
