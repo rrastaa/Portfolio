@@ -14,6 +14,59 @@ body{
   background-color: #131313;
 }
 
+.maintitle{
+  
+  animation-duration: 1s;
+  animation-name: maintitle;
+  /* animation-direction: alternate; */
+}
+@keyframes maintitle{
+  0%{
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.maindesc{
+  animation-duration: 2s;
+  animation-name: maintitle;
+  
+}
+@keyframes maindesc{
+  0%{
+    transform: translateY(2rem);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.maincursor{
+  animation-duration: 4s;
+  animation-name: maincursor;
+  /* animation-direction: alternate; */
+}
+@keyframes maincursor{
+  0%{
+    transform: translateY(4rem) translateX(-4rem) scale(70%);
+
+    /* opacity: 0; */
+  }
+  25%{
+    opacity: 1;
+    transform: translateY(0) translateX(-4rem) scale(70%);
+    
+  }
+  45%{
+    transform: translateX(0);
+  }
+}
+
+
 h2,h5{
   transform: translateY(2rem);
   opacity: 0;
