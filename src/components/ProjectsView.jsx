@@ -3,7 +3,7 @@ const project = [
     title: "Mentory",
     logo: "/mentory/mentorylogo.svg",
     focus: "Full-Stack Developer & UI/UX Designer",
-    desc: "Developed a full-stack appointment management platform for students and lecturers. Designed the user interface and builtfeatures for appointment scheduling, authentication, andresponsive user experiences.",
+    desc: "Developed a full-stack appointment management platform for students and lecturers. Designed the user interface and built features for appointment scheduling, authentication, and responsive user experiences.",
     mainImage: "/mentory/mentorydashboard.webp",
     moreImage: [
       "/mentory/makeappointment.webp",
